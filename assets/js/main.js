@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			height:currentHeight,
 			layout:"video",
 			channel: "Mizkif",
-			parent:["xtrendence.github.io"]
+			parent:["xtrendenceedu.github.io"]
 		});
 	});
 });
