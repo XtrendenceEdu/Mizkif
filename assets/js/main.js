@@ -4,7 +4,9 @@ document.addEventListener("DOMContentLoaded", () => {
 	let divAbout = document.getElementsByClassName("about-wrapper")[0];
 	let divMenu = document.getElementsByClassName("menu-wrapper")[0];
 	let divButtons = document.getElementsByClassName("buttons-wrapper")[0];
-	let buttonAbout = document.getElementsByClassName("about-button")[0];
+	let divMenuButtons = document.getElementsByClassName("menu-buttons")[0];
+	let buttonAboutNavbar = document.getElementsByClassName("about-button-navbar")[0];
+	let buttonAboutMenu = document.getElementsByClassName("about-button-menu")[0];
 	let buttonClose = document.getElementsByClassName("close-button")[0];
 	let buttonMenu = document.getElementsByClassName("menu-button")[0];
 
@@ -23,7 +25,9 @@ document.addEventListener("DOMContentLoaded", () => {
 		parent:["xtrendence.github.io"]
 	});
 
-	buttonAbout.addEventListener("click", toggleAbout);
+	buttonAboutNavbar.addEventListener("click", toggleAbout);
+
+	buttonAboutMenu.addEventListener("click", toggleAbout);
 
 	buttonClose.addEventListener("click", toggleAbout);
 
@@ -45,12 +49,12 @@ document.addEventListener("DOMContentLoaded", () => {
 			divMenu.classList.remove("hidden");
 			let buttons = divButtons.innerHTML;
 			divButtons.innerHTML = "";
-			divMenu.innerHTML = buttons;
+			divMenuButtons.innerHTML = buttons;
 		}
 		else {
 			divMenu.classList.add("hidden");
-			let buttons = divMenu.innerHTML;
-			divMenu.innerHTML = "";
+			let buttons = divMenuButtons.innerHTML;
+			divMenuButtons.innerHTML = "";
 			divButtons.innerHTML = buttons;
 		}
 	}
