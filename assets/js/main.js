@@ -69,8 +69,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 		if(window.innerWidth >= 700 && divButtons.innerHTML === "") {
 			divMenu.classList.add("hidden");
-			let buttons = divMenu.innerHTML;
-			divMenu.innerHTML = "";
+			let buttons = divMenuButtons.innerHTML;
+			divMenuButtons.innerHTML = "";
 			divButtons.innerHTML = buttons;
 		}
 
