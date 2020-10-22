@@ -44,4 +44,9 @@
 	.menu-button {
 		display:block;
 	}
+	.about-wrapper {
+		width:calc(100% - 60px);
+		height:auto;
+		left:30px;
+	}
 }
