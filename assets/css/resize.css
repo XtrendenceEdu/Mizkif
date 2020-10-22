@@ -1,0 +1,47 @@
+@media screen and (max-width:1200px) {
+	.navbar button {
+		font-size:18px;
+		padding:0 10px 0 10px;
+	}
+}
+@media screen and (max-width:1050px) {
+	.navbar button {
+		font-size:16px;
+		padding:0 8px 0 8px;
+	}
+}
+@media screen and (max-width:940px) {
+	.navbar {
+		width:100%;
+	}
+	.navbar button {
+		font-size:18px;
+		padding:0 15px 0 15px;
+	}
+	.navbar button.twitter {
+		display:inline-block;
+	}
+	.twitter-feed-wrapper {
+		display:none;
+	}
+}
+@media screen and (max-width:840px) {
+	.navbar button {
+		font-size:18px;
+		padding:0 10px 0 10px;
+	}
+}
+@media screen and (max-width:740px) {
+	.navbar button {
+		font-size:16px;
+		padding:0 10px 0 10px;
+	}
+}
+@media screen and (max-width:700px) {
+	.navbar button, .navbar button.twitter {
+		display:none;
+	}
+	.menu-button {
+		display:block;
+	}
+}
