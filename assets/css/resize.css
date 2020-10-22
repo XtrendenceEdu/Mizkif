@@ -45,6 +45,7 @@
 		display:block;
 	}
 	.about-wrapper {
+		top:30px;
 		width:calc(100% - 60px);
 		height:auto;
 		left:30px;
