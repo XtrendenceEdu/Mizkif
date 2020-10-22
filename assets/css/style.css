@@ -132,6 +132,10 @@ a {
 	background:rgba(0,0,0,0.9);
 }
 
+#twitch-embed {
+	margin-top:80px;
+}
+
 .about-wrapper {
 	position:absolute;
 	width:600px;

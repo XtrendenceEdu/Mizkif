@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		twitterFeedWidth = 0;
 	}
 	let width = window.innerWidth - twitterFeedWidth;
-	let height = window.innerHeight;
+	let height = window.innerHeight - 80;
 
 	new Twitch.Embed("twitch-embed", {
 		width:width,
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			twitterFeedWidth = 0;
 		}
 		let currentWidth = window.innerWidth - twitterFeedWidth;
-		let currentHeight = window.innerHeight;
+		let currentHeight = window.innerHeight - 80;
 
 		if(window.innerWidth >= 700 && divButtons.innerHTML === "") {
 			divMenu.classList.add("hidden");
